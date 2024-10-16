@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Octuplex")(type "KiCad")(uri "${KIPRJMOD}/Octuplex.kicad_sym")(options "")(descr ""))
+)
