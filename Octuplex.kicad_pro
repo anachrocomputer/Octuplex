@@ -578,6 +578,18 @@
     [
       "14fcb5a1-f4c4-4014-8a9e-68eed71dfea8",
       "Root"
+    ],
+    [
+      "34618d2f-892e-4493-a771-561be54d7818",
+      "Microprocessor"
+    ],
+    [
+      "fb7f1ec1-ee42-422a-b309-3a14763531c6",
+      "GPIO"
+    ],
+    [
+      "de14be77-7290-454b-beb1-ac231ff34a05",
+      "Power"
     ]
   ],
   "text_variables": {}
