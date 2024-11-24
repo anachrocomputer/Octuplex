@@ -1409,7 +1409,7 @@
 		(symbol "R6522_0_1"
 			(rectangle
 				(start -10.16 27.94)
-				(end 10.16 -38.1)
+				(end 10.16 -33.02)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1421,7 +1421,7 @@
 		)
 		(symbol "R6522_1_1"
 			(pin power_in line
-				(at 0 -40.64 90)
+				(at 0 -35.56 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
