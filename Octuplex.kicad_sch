@@ -239,7 +239,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 57.15) (xy 147.32 57.15)
+			(xy 127 57.15) (xy 166.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -259,7 +259,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 96.52) (xy 184.15 102.87)
+			(xy 203.2 96.52) (xy 203.2 102.87)
 		)
 		(stroke
 			(width 0)
@@ -269,7 +269,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 25.4) (xy 184.15 34.29)
+			(xy 203.2 25.4) (xy 203.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -279,7 +279,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 50.8) (xy 147.32 50.8)
+			(xy 127 50.8) (xy 166.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -307,6 +307,16 @@
 		)
 		(uuid "ab5f1ca3-506c-4730-977f-6cf2283e54a9")
 	)
+	(bus
+		(pts
+			(xy 127 63.5) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1191904-1e9a-4a72-ba2d-6edcff2e572a")
+	)
 	(label "d[0..7]"
 		(at 135.89 57.15 0)
 		(fields_autoplaced yes)
@@ -328,6 +338,17 @@
 			(justify left bottom)
 		)
 		(uuid "23ab8a8a-bc85-486f-8cff-72b63bd5bb82")
+	)
+	(label "{~{RESET} ~{NMI} ~{FIRQ} ~{IRQ}}"
+		(at 128.27 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd9d1dbe-4ed2-4d8f-aa55-2b1546e8384a")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -397,7 +418,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 102.87 0)
+		(at 203.2 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -406,7 +427,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bb4c420-dbdd-4f83-a4cf-8e25726c1028")
 		(property "Reference" "#PWR036"
-			(at 184.15 109.22 0)
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +436,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 107.95 0)
+			(at 203.2 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,7 +444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 102.87 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -432,7 +453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 102.87 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -441,7 +462,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 102.87 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,7 +682,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 184.15 25.4 0)
+		(at 203.2 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -670,7 +691,7 @@
 		(fields_autoplaced yes)
 		(uuid "e53d4e86-f34a-4271-a662-9e68a9cc599a")
 		(property "Reference" "#PWR035"
-			(at 184.15 29.21 0)
+			(at 203.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +700,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 184.15 20.32 0)
+			(at 203.2 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -687,7 +708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 25.4 0)
+			(at 203.2 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 25.4 0)
+			(at 203.2 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 184.15 25.4 0)
+			(at 203.2 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -795,6 +816,16 @@
 			)
 			(uuid "45be878a-6699-4ea5-be0d-100b01806ec2")
 		)
+		(pin "INTS" input
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "554fa953-e18a-46c9-bd04-0aecfac10d15")
+		)
 		(instances
 			(project "Octuplex"
 				(path "/14fcb5a1-f4c4-4014-8a9e-68eed71dfea8"
@@ -862,7 +893,7 @@
 		)
 	)
 	(sheet
-		(at 147.32 34.29)
+		(at 166.37 34.29)
 		(size 74.93 62.23)
 		(fields_autoplaced yes)
 		(stroke
@@ -874,7 +905,7 @@
 		)
 		(uuid "fb7f1ec1-ee42-422a-b309-3a14763531c6")
 		(property "Sheetname" "GPIO"
-			(at 147.32 33.5784 0)
+			(at 166.37 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,7 +914,7 @@
 			)
 		)
 		(property "Sheetfile" "gpio.kicad_sch"
-			(at 147.32 97.1046 0)
+			(at 166.37 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,7 +923,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 184.15 34.29 90)
+			(at 203.2 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,7 +933,7 @@
 			(uuid "fc17bb33-d0aa-4077-87fc-e3a4db2635db")
 		)
 		(pin "GND" input
-			(at 184.15 96.52 270)
+			(at 203.2 96.52 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +943,7 @@
 			(uuid "9788e878-3553-43ef-bf36-67867b1870fc")
 		)
 		(pin "DATA" input
-			(at 147.32 57.15 180)
+			(at 166.37 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +953,7 @@
 			(uuid "e10d5b91-fe0a-4edc-866a-6b8ba7534f70")
 		)
 		(pin "ADDR" input
-			(at 147.32 50.8 180)
+			(at 166.37 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,6 +961,16 @@
 				(justify left)
 			)
 			(uuid "251b3385-147c-473c-b595-bb8929c29c4b")
+		)
+		(pin "INTS" input
+			(at 166.37 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1d7444cd-b16e-4c3f-824c-b6547f71f2c0")
 		)
 		(instances
 			(project "Octuplex"
