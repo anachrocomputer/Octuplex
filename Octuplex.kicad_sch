@@ -267,6 +267,16 @@
 		)
 		(uuid "3b711f0e-92f5-412c-9881-a638c2710366")
 	)
+	(bus
+		(pts
+			(xy 127 69.85) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8e0c14-df41-456b-bcbf-7c90cfbff3e3")
+	)
 	(wire
 		(pts
 			(xy 203.2 25.4) (xy 203.2 34.29)
@@ -338,6 +348,17 @@
 			(justify left bottom)
 		)
 		(uuid "23ab8a8a-bc85-486f-8cff-72b63bd5bb82")
+	)
+	(label "{R{slash}~{W} E ~{RD} ~{WR}}"
+		(at 132.08 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41aa4030-f68d-4af3-9bed-de9a354d8075")
 	)
 	(label "{~{RESET} ~{NMI} ~{FIRQ} ~{IRQ}}"
 		(at 128.27 63.5 0)
@@ -826,6 +847,16 @@
 			)
 			(uuid "554fa953-e18a-46c9-bd04-0aecfac10d15")
 		)
+		(pin "CTRL" input
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98faf1c1-29a6-47ed-8ee7-beca01762863")
+		)
 		(instances
 			(project "Octuplex"
 				(path "/14fcb5a1-f4c4-4014-8a9e-68eed71dfea8"
@@ -971,6 +1002,16 @@
 				(justify left)
 			)
 			(uuid "1d7444cd-b16e-4c3f-824c-b6547f71f2c0")
+		)
+		(pin "CTRL" input
+			(at 166.37 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3e4478f-7c92-446d-a9c5-673710fe3050")
 		)
 		(instances
 			(project "Octuplex"
