@@ -13300,7 +13300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "M6502"
 			(at 65.6941 118.11 0)
 			(effects
 				(font
