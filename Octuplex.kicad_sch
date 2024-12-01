@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Octuplex 8-bit Microcomputer")
-		(date "2024-11-24")
+		(date "2024-12-01")
 		(company "John Honniball")
 	)
 	(lib_symbols
