@@ -1,3 +1,6 @@
+![Static Badge](https://img.shields.io/badge/CPU-MC6809-green "CPU:MC6809")
+![Static Badge](https://img.shields.io/badge/CAD-KiCAD_8-green "CAD:KiCAD 8")
+
 # Octuplex #
 
 A 6502/6809 microcomputer in the shape of an octagon.
